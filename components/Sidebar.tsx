@@ -3,6 +3,7 @@
 import { sidebarLinks } from "@/constant/inedx";
 import { cn } from "@/lib/utils";  // the cn is used to make the classname more readable and combined in the for the user 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const Sidebar = () => {
@@ -26,6 +27,12 @@ const Sidebar = () => {
                 } 
               )}
             >
+             <Image
+                src={link.imgURL}
+                alt={link.label}
+                width={24}
+                height={24}
+              />
                 {link.label}
             </Link>
           );
