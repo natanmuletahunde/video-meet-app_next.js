@@ -1,7 +1,7 @@
 'use client';
 
 import { sidebarLinks } from "@/constant/inedx";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils";  // the cn is used to make the classname more readable and combined in the for the user 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -23,9 +23,10 @@ const Sidebar = () => {
                 'flex gap-4 items-center p-4 rounded-lg justify-start',
                 {
                   'bg-blue-1': isActive,
-                }
+                } 
               )}
             >
+                {link.label}
             </Link>
           );
         })}
