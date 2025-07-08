@@ -7,7 +7,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const Sidebar = () => {
-  const pathname = usePathname();
+  const pathname = usePathname();  // used to give me the current url 
 
   return (
     <section className="sticky left-0 top-0 flex h-screen w-fit flex-col justify-between bg-dark-1 p-6 pt-28 text-white max-sm:hidden lg:w-[264px]">
