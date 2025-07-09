@@ -16,8 +16,13 @@ const Navbar = () => {
           YOOM
         </p>
       </Link>
+
+      <div className="flex-between gap-5">
+        MobileNav
+      </div>
     </nav>
   );
 };
 
 export default Navbar;
+  // clerk is used for the  
