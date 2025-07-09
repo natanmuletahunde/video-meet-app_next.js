@@ -1,6 +1,6 @@
 'use client';
 
-import { sidebarLinks } from "@/constant/inedx";
+import { sidebarLinks } from "@/constants/index";
 import { cn } from "@/lib/utils";  // the cn is used to make the classname more readable and combined in the for the user 
 import Link from "next/link";
 import Image from "next/image";
@@ -15,7 +15,6 @@ const Sidebar = () => {
         {sidebarLinks.map((link) => {
           const isActive =
             pathname === link.route || pathname.startsWith(`${link.route}/`);
-
           return (
             <Link
               href={link.route}
