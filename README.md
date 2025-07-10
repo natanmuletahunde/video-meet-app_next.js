@@ -37,11 +37,11 @@ A real-time video conferencing application built with **Next.js**, **Stream Vide
 
 ## 📸 Screenshots
 
-| Dashboard                                   | Schedule Meeting                          | Join Meeting                      |
-| ------------------------------------------- | ----------------------------------------- | --------------------------------- |
-| ![Dashboard](./public/images/dashboard.png) | ![Schedule](./public/images/schedule.png) | ![Join](./public/images/join.png) |
+| Dashboard                                                                                                                  | Schedule Meeting                                                                                                          | Join Meeting                      |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| <img width="1724" alt="Dashboard" src="https://github.com/user-attachments/assets/1cc1f318-6b13-4ec0-9d2a-02064ae0b5d0" /> | <img width="1901" alt="Schedule" src="https://github.com/user-attachments/assets/70b6f816-ae22-4df1-9aa6-e414de47950e" /> | ![Join](./public/images/join.png) |
 
-> Place your PNG screenshots inside the `public/images/` folder to display them correctly on GitHub.
+> You can also replace the last image with another external image if needed.
 
 ---
 
@@ -89,20 +89,15 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 * Modify the home UI in `app/page.tsx`
 * Use `components/ui/` for all reusable UI
-* All meetings are managed via Stream Call<img width="1901" height="876" alt="Screenshot (641)" src="https://github.com/user-attachments/assets/70b6f816-ae22-4df1-9aa6-e414de47950e" />
-
+* All meetings are managed via Stream Call
 * Auth flows are powered by Clerk
 
 ---
 
-## 📤 Deployment
 
-The easiest way to deploy this project is using **[Vercel](https://vercel.com/)**:
+Or connect your GitHub repo directly to Vercel for CI/CD.
 
-```bash
-npx vercel
-```
-
+🔸 **Alternative Live Deployment**: [Render Deployment](https://video-meet-app-next-js.onrender.com)
 
 ---
 
