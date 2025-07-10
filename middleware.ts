@@ -1,15 +1,13 @@
+// middleware.ts
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import { NextResponse } from 'next/server';
 
-const isIgnoredRoute = createRouteMatcher([
-  '/sign-in',
-  '/sign-up',
-]);
+const isPublicRoute = createRouteMatcher(['/sign-in', '/sign-up']);
 
 export default clerkMiddleware(async (auth, req) => {
   const { userId } = await auth();
 
-  if (isIgnoredRoute(req)) return;
+  if (isPublicRoute(req)) return;
 
   if (!userId) {
     const signInUrl = new URL('/sign-in', req.url);
