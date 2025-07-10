@@ -2,6 +2,8 @@
 
 A real-time video conferencing application built with **Next.js**, **Stream Video SDK**, **Clerk Auth**, and **Tailwind CSS**. Designed for seamless virtual communication, personal meeting rooms, instant meeting creation, and scheduled conferences.
 
+🌐 **Live Demo**: [video-meet-app-next-js.onrender.com](https://video-meet-app-next-js.onrender.com)
+
 ---
 
 ## 🚀 Features
@@ -35,11 +37,11 @@ A real-time video conferencing application built with **Next.js**, **Stream Vide
 
 ## 📸 Screenshots
 
-> Replace the placeholders with actual PNGs from your `public/` or `assets/` folder:
-
 | Dashboard                                   | Schedule Meeting                          | Join Meeting                      |
 | ------------------------------------------- | ----------------------------------------- | --------------------------------- |
 | ![Dashboard](./public/images/dashboard.png) | ![Schedule](./public/images/schedule.png) | ![Join](./public/images/join.png) |
+
+> Place your PNG screenshots inside the `public/images/` folder to display them correctly on GitHub.
 
 ---
 
@@ -87,7 +89,8 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 * Modify the home UI in `app/page.tsx`
 * Use `components/ui/` for all reusable UI
-* All meetings are managed via Stream Call
+* All meetings are managed via Stream Call<img width="1901" height="876" alt="Screenshot (641)" src="https://github.com/user-attachments/assets/70b6f816-ae22-4df1-9aa6-e414de47950e" />
+
 * Auth flows are powered by Clerk
 
 ---
@@ -100,7 +103,6 @@ The easiest way to deploy this project is using **[Vercel](https://vercel.com/)*
 npx vercel
 ```
 
-Or connect your GitHub repo directly to Vercel for CI/CD.
 
 ---
 
