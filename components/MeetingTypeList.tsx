@@ -9,8 +9,6 @@ const MeetingTypeList = () => {
      <HomeCard/>
      <HomeCard/>
      <HomeCard/>
-
-
     </section>
   );
 };
