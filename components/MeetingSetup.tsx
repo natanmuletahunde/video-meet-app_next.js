@@ -7,7 +7,7 @@ import {
   useCallStateHooks,
 } from '@stream-io/video-react-sdk';
 
-import Alert from './alert';
+import Alert from './Alert';
 import { Button } from './ui/button';
 
 const MeetingSetup = ({
