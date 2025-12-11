@@ -2,7 +2,7 @@
 
 A real-time video conferencing application built with **Next.js**, **Stream Video SDK**, **Clerk Auth**, and **Tailwind CSS**. Designed for seamless virtual communication, personal meeting rooms, instant meeting creation, and scheduled conferences.
 
-🌐 **Live Demo**: [video-meet-app-next-js.onrender.com](https://video-meet-app-next-js.onrender.com)
+🌐 **Live Demo**: [video-meet-app-next-js.onrender.com](https://video-meet-app-next-js-1.onrender.com)
 
 ---
 
